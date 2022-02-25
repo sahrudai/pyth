@@ -2,7 +2,7 @@ import openpyxl as xl
 import requests
 import base64
 
-url = 'https://iljira.icicilombard.com/rest/api/2/user'
+url = 'url'
 
 sample_string = "jira-admin:admin"
 sample_string_bytes = sample_string.encode("ascii")
