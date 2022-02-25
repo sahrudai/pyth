@@ -13,8 +13,10 @@ headers = {
     "Content-Type": "application/json"
 }
 
-try:
 
+
+try:
+    
     res = requests.get(url=url, headers=headers, auth=auth)
 
     result = res.json()
@@ -38,3 +40,4 @@ try:
 
 except Exception as e:
     print(e)
+    #end
